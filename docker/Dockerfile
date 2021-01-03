@@ -1,5 +1,5 @@
 FROM python:alpine
-LABEL maintainer="Evine Deng <evinedeng@foxmail.com>"
+LABEL maintainer="hongyunfei <hongyunfei1220@gmail.com>"
 LABEL version="v1.4.0"
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     HOME=/root \
