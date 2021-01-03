@@ -23,7 +23,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     && echo "Asia/Shanghai" > /etc/timezone \
     && pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple \
     && python -m pip install --upgrade pip \
-    && git clone -b master https://github.com/TNanko/Scripts ${SCRIPTS_DIR} \
+    && git clone -b master https://github.com/hongyunfei/Scripts-1 ${SCRIPTS_DIR} \
     && cd ${SCRIPTS_DIR} \
     && pip install -r requirements.txt \
     && chmod +x /usr/local/bin/entrypoint.sh
